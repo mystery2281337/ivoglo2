@@ -15,9 +15,8 @@ return (
      </div>
      <div className = 'text'>
         <h1><p> NEXT PIZZA</p>
-        вкусней уже некуда</h1>
+        вкуснее уже некуда</h1>
      </div>
-
     </Container>
 </header>
 );
