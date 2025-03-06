@@ -2,6 +2,9 @@ import { Container } from './container';
 import * as React from 'react';
 import { cn } from '@/lib/utils';
 import Image from'next/image';
+import {Button} from '../ui/button';
+import{User} from 'lucide-react'
+import { ShoppingCart } from 'lucide-react';
 
 interface Props {
 className?: string;
@@ -17,6 +20,18 @@ return (
         <h1><p> NEXT PIZZA</p>
         вкуснее уже некуда</h1>
      </div>
+   <div className='flex item-right gap-4'>
+      <div>
+         <Button variant={'outline'}>
+            <User size={16}/>Войти
+         </Button>
+      </div>
+   </div>
+      <Button variant={'outline'}>
+         <ShoppingCart size = {16}/>
+         
+
+      </Button>
     </Container>
 </header>
 );
