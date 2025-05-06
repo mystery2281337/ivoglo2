@@ -6,3 +6,5 @@ export {Categories} from './categories';
 export {CheckBoxFiltersGroup} from './checkbox-filters-group'
 export {Filters} from './filters'
 export {TopBar} from './top-bar'
+export {ProductCard} from './product-card'
+export {ProductsGroupList} from './products-group-list'
